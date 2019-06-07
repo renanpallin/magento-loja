@@ -57,3 +57,26 @@ Some common tasks that can be handled by the init script:
 
 - initialize local settings files for Docker Compose, Magento, etc.
 - import DB or perform a site install
+
+
+# Custom
+
+## Commands
+
+### Export admin configs to php config files
+```
+fin exec php bin/magento app:config:dump
+```
+
+### Backup
+
+```
+fin exec php bin/magento setup:backup --code
+fin exec php bin/magento setup:backup --media
+fin exec php bin/magento setup:backup --db
+```
+
+List all current backups
+```
+fin exec php bin/magento info:backup:list
+```
