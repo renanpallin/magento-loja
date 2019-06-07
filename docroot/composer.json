@@ -9,7 +9,8 @@
     ],
     "require": {
         "magento/product-community-edition": "2.1.4",
-        "composer/composer": "@alpha"
+        "composer/composer": "@alpha",
+        "magento2translations/language_pt_br": "dev-master"
     },
     "require-dev": {
         "phpunit/phpunit": "4.1.0",
