@@ -45,10 +45,10 @@ atlassian*
 #/pub/static/*
 #!/pub/static/.htaccess
 
-#/var/*
-#!/var/.htaccess
-#/vendor/*
-#!/vendor/.htaccess
+/var/*
+!/var/.htaccess
+/vendor/*
+!/vendor/.htaccess
 
 /pub/media/catalog/product/cache/
 /pub/media/styles.css
